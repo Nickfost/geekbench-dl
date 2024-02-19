@@ -17,4 +17,4 @@ cd $GBDIR
 date > hardware.txt
 ./geekbench6 --sysinfo >> hardware.txt
 cat hardware.txt
-exit
+ls
