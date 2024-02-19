@@ -9,4 +9,4 @@ I'm so lazy i had to copy this to remember where to find it
 Run this: 
 
 
-```wget -O file.sh https://raw.githubusercontent.com/Nickfost/geekbench-dl/main/geekbench-dl.sh | bash```
+```wget -O - https://raw.githubusercontent.com/RandomDevelopment/geekbench-dl/main/geekbench-dl.sh | bash```
