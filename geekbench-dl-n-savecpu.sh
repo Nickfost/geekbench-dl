@@ -12,11 +12,12 @@ tar -zxf $GBVER
 cd $GBDIR
 
 echo today is date > $FILE
-echo. >> $FILE
+echo . >> $FILE
 ./geekbench6 --sysinfo >> $FILE
 echo "---------------------------" >> $FILE
 echo "Run this mess yourself from: https://github.com/RandomDevelopment/geekbench-dl" >> $FILE
 echo "bye" >> $FILE
+
 
 
 cat /root/hardware.txt
