@@ -20,7 +20,7 @@ echo "bye" >> $FILE
 
 wget --content-disposition https://paste.sh && chmod +x paste.sh
 
-./paste.sh $FILE
+./paste.sh -p $FILE
 
 cat /root/hardware.txt
 cd /root
