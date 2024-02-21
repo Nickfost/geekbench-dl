@@ -18,7 +18,9 @@ echo "---------------------------" >> $FILE
 echo "Run this mess yourself from: https://github.com/RandomDevelopment/geekbench-dl" >> $FILE
 echo "bye" >> $FILE
 
+wget --content-disposition https://paste.sh && chmod +x paste.sh
 
+./paste.sh $FILE
 
 cat /root/hardware.txt
 cd /root
